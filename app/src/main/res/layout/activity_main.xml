@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="My Job in a month"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/m1_txtTitle"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/m1_txtTitle"
+        android:layout_marginTop="10dp"
+        android:id="@+id/m1_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
+
+
